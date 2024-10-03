@@ -1,6 +1,6 @@
 # PYTHON MODULE
 
-#### Steep learning curve so far.
+### About this analysis:
 
 1. I've had office hours with all three TAs this week. Making sure I have everything set up and I can find my path and relative paths for the CSV files. I still need to do a more 1on1 session outside those hours.
 2. My group has had more time sharing resources together in class when we find them.
