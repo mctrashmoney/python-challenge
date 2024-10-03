@@ -2,7 +2,7 @@
 
 ### About this analysis:
 
-1. I've had office hours with all three TAs this week. Making sure I have everything set up and I can find my path and relative paths for the CSV files. I still need to do a more 1on1 session outside those hours.
+1. I've had office hours with all three TAs this week. Making sure I have everything set up and I can find my path and relative paths for the CSV files (It was extremely useful to use relative paths in this assignment). I still need to do a more 1on1 session outside those hours.
 2. My group has had more time sharing resources together in class when we find them.
 3. I will say one thing this time that I need to learn more about exporting files. I had to look that up with AI. Most of the exporting to txt and formatting into it I didn't know since we didn't cover it in class.
 4. A big stumbling block I had was trying to start counts in the second row, which was frustrating. I even named it 'donotcount' in line 19 on PyBank and 'skipheader' on PyPoll in line 18. I kept forgetting this step. (Later on today I found that the cereal solution code had the solution in the stackoverflow link. I had already however, looked it up online. This helped me look at the same approach being used in two different scenarios).
