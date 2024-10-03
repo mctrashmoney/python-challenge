@@ -2,8 +2,8 @@ import csv
 import os
 
 # Define paths
-csv_file_path = os.path.join('Resources', 'budget_data.csv')
-output_file_path = os.path.join('analysis', 'budget_analysis.txt')
+csv_file_path = os.path.join('Resources/budget_data.csv')
+output_file_path = os.path.join('analysis/budget_analysis.txt')
 
 
 # Set variables to starting values
@@ -16,7 +16,7 @@ greatest_decrease = {'date': None, 'amount': None}
 
 
 # Read the csv
-with open(csv_file_path, mode='r') as file:
+with open(csv_file_path,'r') as file:
     csv_reader = csv.reader(file)
     donotcount = next(csv_reader)
 
@@ -48,7 +48,7 @@ average_change = sum(changes) / len(changes) if changes else 0
 
 
 # Write results to a text file
-with open(output_file_path, mode='w') as file:
+with open(output_file_path,'w') as file:
     file.write('Financial Analysis\n')
     file.write('_________________________________________________\n')
     file.write(f'Total Months: {total_months}\n')
@@ -59,9 +59,8 @@ with open(output_file_path, mode='w') as file:
 
 
 # Prints the txt onto the terminal
-txtfile = 'analysis/budget_analysis.txt'
-with open(txtfile, 'r') as terminaldata:
+new_txt_file = 'analysis/budget_analysis.txt'
+with open(new_txt_file, 'r') as terminaldata:
     print(terminaldata)
     summary = terminaldata.read()
     print(summary)
-

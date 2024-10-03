@@ -3,8 +3,8 @@ import os
 
 
 # Define paths
-csv_file_path = os.path.join('Resources', 'election_data.csv')
-output_file_path = os.path.join('analysis', 'election_analysis.txt')
+csv_file_path = os.path.join('Resources\election_data.csv')
+output_file_path = os.path.join('analysis\election_analysis.txt')
 
 
 # Set variables
@@ -13,7 +13,7 @@ candidate_votes = {}
 
 
 # Read csv file
-with open(csv_file_path, mode='r') as file:
+with open(csv_file_path,'r') as file:
     csv_reader = csv.reader(file)
     skipheader = next(csv_reader) 
 
@@ -32,7 +32,7 @@ winner = max(candidate_votes, key=candidate_votes.get)
 
 
 # Write results to a text file
-with open(output_file_path, mode='w') as file:
+with open(output_file_path,'w') as file:
     file.write('Election Results\n')
     file.write('_________________________________________\n')
     file.write(f'Total Votes: {total_votes}\n')
