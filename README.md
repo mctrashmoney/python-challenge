@@ -14,8 +14,8 @@ PyBank and PyPoll are Python-based **data analysis projects** that process finan
    - **Net total profit/loss**  
    - **Average monthly change**  
    - **Greatest increase in profits (date & amount)**  
-   - **Greatest decrease in profits (date & amount)**  
-✅ Outputs a structured financial summary to a **text file** and the **console**.  
+   - **Greatest decrease in profits (date & amount)**
+      - Outputs a structured financial summary to a **text file** and the **console**.  
 
 ### 🖥️ **Technologies Used:**  
 ✅ Python (CSV module, File I/O)  
