@@ -30,8 +30,8 @@ PyBank and PyPoll are Python-based **data analysis projects** that process finan
 ✅ Calculates key election statistics:  
    - **Total votes cast**  
    - **Vote count and percentage per candidate**  
-   - **Winner determination based on majority votes**  
-✅ Outputs a **detailed election report** to a text file and the console.  
+   - **Winner determination based on majority votes**
+      - Outputs a **detailed election report** to a text file and the console.  
 
 ### 🖥️ **Technologies Used:**  
 ✅ Python (CSV module, Dictionaries)  
